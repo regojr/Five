@@ -209,6 +209,14 @@ h6, .h6 {
   background: #141617;
 }
 
+.sidebar-module-item-current{
+  font-family: 'Exo 2', sans-serif;
+  font-size: 20px;
+  padding: 2px;
+  /*margin: 0 -10px 10px auto; */
+  font: #ffffff;
+  background: #141617;
+}
 
 
 
@@ -233,6 +241,7 @@ h6, .h6 {
   margin-bottom: 60px;
   margin-left: 30px;
   padding-left: 200px;
+  font-size: 24px;
 }
 
 .informational ol {
