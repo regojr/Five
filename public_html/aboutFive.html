@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A repository of ideas and opinions">
     <meta name="author" content="Jake Rego">
-    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+    <link rel="icon" href="images/f_black_favicon.ico">
 	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Nixie+One|Philosopher|Quicksand|Josefin+Sans|Josefin+Slab|Slabo+27px|Maven+Pro|Exo+2|Varela+Round|Comfortaa|Old+Standard+TT' rel='stylesheet' type='text/css'>
 	<title>Five Capitalist</title>
@@ -104,7 +104,8 @@
                                                                                                       'para2', 'Jake Experience Content',
                                                                                                       'head3', 'Background',
                                                                                                       'para3', 'Jake Background Content',
-                                                                                                      'ol', ' ')">Jake</a></li>
+                                                                                                      'ol', ' ',
+                                                                                                      'picture', 'images/jake.jpg')">Jake</a></li>
                                                                                                       
                                 <li role="presentation"><a href="javascript:ReplaceContentInContainer('head1', 'Education',
                                                                                                       'para1', 'Pat Education Content',
@@ -112,7 +113,8 @@
                                                                                                       'para2', 'Pat Experience Content',
                                                                                                       'head3', 'Background',
                                                                                                       'para3', 'Pat Background Content',
-                                                                                                      'ol', ' ')">Pat</a></li>
+                                                                                                      'ol', ' ',
+                                                                                                      'picture', 'images/pat.jpg')">Pat</a></li>
                                                                                                       
                                 <li role="presentation"><a href="javascript:ReplaceContentInContainer('head1', 'Education',
                                                                                                       'para1', 'Nick Education Content',
@@ -120,7 +122,8 @@
                                                                                                       'para2', 'Nick Experience Content',
                                                                                                       'head3', 'Background',
                                                                                                       'para3', 'Nick Background Content',
-                                                                                                      'ol', ' ')">Nick</a></li>
+                                                                                                      'ol', ' ',
+                                                                                                      'picture', 'images/nick.jpg')">Nick</a></li>
                                                                                                       
                                 <li role="presentation"><a href="javascript:ReplaceContentInContainer('head1', 'Education',
                                                                                                       'para1', 'Ryan Education Content',
@@ -128,7 +131,8 @@
                                                                                                       'para2', 'Ryan Experience Content',
                                                                                                       'head3', 'Background',
                                                                                                       'para3', 'Ryan Background Content',
-                                                                                                      'ol', ' ')">Ryan</a></li>
+                                                                                                      'ol', ' ',
+                                                                                                      'picture', 'images/ryan.jpg')">Ryan</a></li>
                                                                                                       
                                 <li role="presentation"><a href="javascript:ReplaceContentInContainer('head1', 'Education',
                                                                                                       'para1', 'Sean Education Content',
@@ -136,13 +140,17 @@
                                                                                                       'para2', 'Sean Experience Content',
                                                                                                       'head3', 'Background',
                                                                                                       'para3', 'Sean Background Content',
-                                                                                                      'ol', ' ')">Sean</a></li>
+                                                                                                      'ol', ' ',
+                                                                                                      'picture', 'images/sean.jpg')">Sean</a></li>
                                                                                                       
                             </ul>
                     
 			<div class="informational">                    
                             <br>
-                                                   
+                            
+                            <img id="picture" src="images/datass.jpg">
+                                                          
+                            <br><br>         
                                     <h2 id="head1" class="blog-post-title">Mission Statement</h2>
                                     <hr>
                                     <p id="para1"> FIVE (Five Innovators Valuing Excellence) is a collaboration between growing thought 
@@ -234,7 +242,7 @@
 
     <!-- JavaScript Dynamic Page content -->
     <script type="text/javascript">
-        function ReplaceContentInContainer(id1,content1,id2,content2,id3,content3,id4,content4,id5,content5,id6,content6,id7,content7) {
+        function ReplaceContentInContainer(id1,content1,id2,content2,id3,content3,id4,content4,id5,content5,id6,content6,id7,content7,pic,imgsrc) {
             var container1 = document.getElementById(id1);
             container1.innerHTML = content1;
             var container2 = document.getElementById(id2);
@@ -249,6 +257,9 @@
             container6.innerHTML = content6; 
             var container7 = document.getElementById(id7);
             container7.innerHTML = content7; 
+            
+            var container8 = document.getElementById(pic).src;
+            document.getElementById(pic).src=imgsrc;
         }      
     </script>
 
