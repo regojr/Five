@@ -4217,7 +4217,9 @@ position:relative;display:block;padding:10px 15px
 
 
 .nav>li>a:hover,.nav>li>a:focus{
-text-decoration:none;background-color:#eee
+text-decoration:none;
+background-color:#080808;
+color:#ffffff;
 }
 
 
@@ -4349,7 +4351,8 @@ border-color: #080808;
 
 
 .nav-pills>li.active>a,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus{
-color:#fff;background-color:#e3e3e3;
+color:#080808;
+background-color:#e3e3e3;
 
 }
 
