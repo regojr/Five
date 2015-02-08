@@ -1334,9 +1334,10 @@ font-family:inherit;font-size:inherit;line-height:inherit
 
 
 a{
-color:#428bca;text-decoration:none
+color:#3071a9;
+font-family: 'Lato', sans-serif;
+text-decoration:none;
 }
-
 
 a:hover,a:focus{
 color:#2a6496;text-decoration:underline
@@ -1346,7 +1347,6 @@ color:#2a6496;text-decoration:underline
 a:focus{
 outline:thin dotted;outline:5px auto -webkit-focus-ring-color;outline-offset:-2px
 }
-
 
 figure{
 margin:0
@@ -4232,7 +4232,7 @@ color:#777;text-decoration:none;cursor:not-allowed;background-color:transparent
 
 
 .nav .open>a,.nav .open>a:hover,.nav .open>a:focus{
-background-color:#eee;border-color:#428bca
+background-color:#ccc;border-color:#428bca
 }
 
 
@@ -4332,7 +4332,8 @@ border-bottom-color:#fff
 
 
 .nav-pills>li{
-float:left
+float:left;
+border-color: #080808;    
 }
 
 
@@ -4342,12 +4343,14 @@ border-radius:4px
 
 
 .nav-pills>li+li{
-margin-left:2px
+margin-left:2px;
+border-color: #080808;
 }
 
 
 .nav-pills>li.active>a,.nav-pills>li.active>a:hover,.nav-pills>li.active>a:focus{
-color:#fff;background-color:#428bca
+color:#fff;background-color:#e3e3e3;
+
 }
 
 
@@ -5302,7 +5305,7 @@ color:#fff;text-decoration:none;cursor:pointer
 
 
 a.list-group-item.active>.badge,.nav-pills>.active>a>.badge{
-color:#428bca;background-color:#fff
+color:#e4b9b9;background-color:#fff
 }
 
 
