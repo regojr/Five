@@ -164,11 +164,11 @@ h6, .h6 {
  */
 
 .blog-main {
-  font-size: 18px;
+  font-size: 12px;
   line-height: 1.5;
   padding-top: 20px;
   width: 65%;
-  margin-left: 1.0%
+  margin-left: 10.0%
 }
 
 /* Sidebar modules for boxing content */
@@ -241,7 +241,6 @@ h6, .h6 {
 .blog-post, .informational {
   margin-bottom: 60px;
   margin-left: 30px;
-  padding-left: 200px;
   font-size: 24px;
 }
 
