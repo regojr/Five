@@ -119,30 +119,36 @@ h6, .h6 {
 .blog-header {
   padding-top: 20px;
   padding-bottom: 5px;
-  margin-left: -20px;
+  margin-left: 18%;
   margin-right: auto;
-  width: 105%;
-  background-color: #000000;
-  height: 350px;
+  background-color: #000000; 
+  background-image: url('../images/assemblyline.jpg');
+  width: 1199px;
+  height: 450px;
 }
 .blog-title {
-  font-family: 'Quicksand', sans-serif;
-  margin-top: 2%;
-  margin-bottom: auto;
-  margin-left: auto;
-  font-size: 150px;
-  font-weight: normal;
-  color: #cdddeb;
-  text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 8%;
+    height: 176px;
+    margin-bottom: auto;
+    /* margin-left: auto; */
+    font-size: 150px;
+    font-weight: normal;
+    color: #ffffff;
+    text-align: center;
+    background-color: #000001;
+    opacity: 0.75;
 }
 .blog-description {
-  font-family: 'Varela Round', sans-serif;
-  font-size: 20px;
-  color: #cdddeb;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
-  text-align:center;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    background-color: #000000;
+    opacity: 0.75;
 }
 
 .about-me-title
@@ -168,7 +174,7 @@ font-size: 12px;
 line-height: 1.5;
 padding-top: 30px;
 width: 65%;
-margin-left: 15%;
+margin-left: 16%;
 margin-right: -5%;
 padding-right: 200px;
 }
