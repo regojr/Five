@@ -2140,7 +2140,7 @@ width:33.33333333%
 
 
 .col-sm-3{
-width:15%
+width:20%
 }
 
 
@@ -4202,7 +4202,9 @@ margin-left:-1px
 
 
 .nav{
-padding-left:0;margin-bottom:0;list-style:none
+padding-left:0;margin-bottom:0;list-style:none;
+font-size: 20px;
+font-family: 'Quicksand', sans-serif;
 }
 
 
