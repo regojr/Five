@@ -288,3 +288,26 @@ padding-right: 200px;
 .blog-footer p:last-child {
   margin-bottom: 0;
 }
+
+.unstyled-links{
+    padding-left:0;list-style:none;
+}
+
+.sidebar-link {
+    width: 150px;
+    height: 30px;
+    background-width:100px;
+    background: #ffffff;
+    transition: width 1s;
+    border-radius: 3px;
+    padding: 2px;
+    font-family: 'Exo', sans-serif;
+    font-size: 20px;
+    padding-bottom:5px;
+}
+
+.sidebar-link:hover {
+  background: #000000;  
+  width: 250px;
+  padding-bottom:5px;
+}
