@@ -340,7 +340,7 @@ background-color: #f9f9f9;
 }
 
 .nav-items a:hover{
-  color: #cdddeb;
+  color: #dbdbdb;
   text-decoration: none;  
   font-family: 'Open Sans', sans-serif;
   Font-size: 13px;
@@ -409,19 +409,19 @@ background-color: #f9f9f9;
     overflow:hidden;
     text-decoration:none;
     text-align:center;
-    display:grid;
+    display:block;
     position: relative;
     z-index: 1;
-    width: 32px;
-    height: 32px;
-    line-height: 20px;
-    font-size: 17px;
-    -webkit-border-radius: 21px;
-    -moz-border-radius: 21px;
-    border-radius: 21px;
-    margin-right: -10%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    -webkit-border-radius: 58px;
+    -moz-border-radius: 58px;
+    border-radius: 58px;
+    margin-right: 8px;
     color: #ffffff;
-    background-color: #2a2a2a;
+    background-color: #211f1f;
 }
 
 .soc-icon-last{
@@ -431,17 +431,17 @@ background-color: #f9f9f9;
 .soc-twitter:before {
     content:'a';
 }
-.soc-github:before {
-    content:'Q';
-}
 .soc-facebook:before {
     content:'b';
 }
-.soc-google:before {
-    content:'c';
-}
 .soc-linkedin:before {
     content:'j';
+}
+.soc-github:before {
+    content:'Q';
+}
+.soc-google:before {
+    content:'c';
 }
 .soc-email1:before {
     content:'<';
