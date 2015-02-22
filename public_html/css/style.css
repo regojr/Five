@@ -125,6 +125,9 @@ h6, .h6 {
   background-image: url('../images/assemblyline.jpg');
   width: 64%;
   height: 450px;
+  
+
+  
 }
 .blog-title {
     font-family: 'Quicksand', sans-serif;
@@ -177,8 +180,8 @@ padding-top: 30px;
 width: 63%;
 margin-left: 18.5%;
 margin-right: -5%;
-padding-right: 200px;
-background-color: #f9f9f9;
+padding-right: 5%;
+background-color: #f5f5f5;
 }
 
 /* Sidebar modules for boxing content */
@@ -336,7 +339,7 @@ background-color: #f9f9f9;
   text-decoration: none;  
   font-family: 'Open Sans', sans-serif;
   Font-size: 13px;
-  padding: 30px;
+  padding: 1.5%;
 }
 
 .nav-items a:hover{
@@ -344,7 +347,7 @@ background-color: #f9f9f9;
   text-decoration: none;  
   font-family: 'Open Sans', sans-serif;
   Font-size: 13px;
-  padding: 30px;
+  padding: 1.5%;
 }
 
 .items-right{
@@ -355,12 +358,18 @@ background-color: #f9f9f9;
   text-align:end;
 }
 
+@media screen and (max-width: 1330px) {
+    .items-right{display:none;}
+}
+
+
 .items-right a{
   color: #ffffff;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   Font-size: 10px;
-  padding: 20px;
+  padding-top: 20px;
+  padding-right: .50%;
 }
 
 .items-right a:hover{
@@ -368,10 +377,9 @@ background-color: #f9f9f9;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
   Font-size: 16px;
-  padding: 20px;
+  padding-top: 20px;
+  padding-right:.5%;
 }
-
-
 
 /* ICONS */
 @font-face {
@@ -405,7 +413,19 @@ background-color: #f9f9f9;
     list-style:none;
 }
 
+.soc-footer {
+    overflow:hidden;
+    margin:0; padding:0;
+    list-style:none;
+}
+
 .soc li {
+    display:inline-block;
+    *display:inline;
+    zoom:1;
+}
+
+.soc-footer li {
     display:inline-block;
     *display:inline;
     zoom:1;
@@ -428,7 +448,7 @@ background-color: #f9f9f9;
     display:block;
     position: relative;
     z-index: 1;
-    width: 48px;
+    width: 30px;
     height: 30px;
     line-height: 5px;
     font-size: 16px;
@@ -438,6 +458,35 @@ background-color: #f9f9f9;
     margin-right: 8px;
     color: #ffffff;
 }
+
+.soc-footer li a {
+    font-family:si!important;
+    font-style:normal;
+    font-weight:400;
+    -webkit-font-smoothing:antialiased;
+    -moz-osx-font-smoothing:grayscale;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    -ms-box-sizing:border-box;
+    -o-box-sizing:border-box;
+    box-sizing:border-box;  
+    overflow:hidden;
+    text-decoration:none;
+    text-align:center;
+    display:inline;
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+    line-height: 5px;
+    font-size: 16px;
+    -webkit-border-radius: 58px;
+    -moz-border-radius: 58px;
+    border-radius: 58px;
+    margin-right: 8px;
+    color: #000000;
+}
+
 
 .soc-icon-last{
     margin:0 !important;
@@ -462,3 +511,5 @@ background-color: #f9f9f9;
 .soc-email1:before {
     content:'<';
 }
+
+
