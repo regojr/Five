@@ -363,6 +363,16 @@ background-color: #f9f9f9;
   padding: 20px;
 }
 
+.items-right a:hover{
+  color: #dbdbdb;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  Font-size: 16px;
+  padding: 20px;
+}
+
+
+
 /* ICONS */
 @font-face {
     font-family: 'si';
@@ -436,6 +446,7 @@ background-color: #f9f9f9;
 .soc-twitter:before {
     content:'a';
 }
+
 .soc-facebook:before {
     content:'b';
 }
