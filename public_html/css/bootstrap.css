@@ -1309,7 +1309,8 @@ content:"\e200"
 
 
 *{
--webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box
+-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;
+color:#000000;
 }
 
 
@@ -1454,7 +1455,7 @@ font-size:12px
 
 
 p{
-margin:0 0 10px
+margin:0 0 10px;
 }
 
 
@@ -2140,7 +2141,7 @@ width:33.33333333%
 
 
 .col-sm-3{
-width:15%
+width:20%
 }
 
 
@@ -4202,7 +4203,9 @@ margin-left:-1px
 
 
 .nav{
-padding-left:0;margin-bottom:0;list-style:none
+padding-left:0;margin-bottom:0;list-style:none;
+font-size: 20px;
+font-family: 'Playfair Display SC', sans-serif;
 }
 
 
@@ -5361,8 +5364,6 @@ padding-right:60px;padding-left:60px
 .jumbotron h1,.jumbotron .h1{
 font-size:63px
 }
-
-
 
 }
 
@@ -7110,6 +7111,3 @@ display:none!important
 
 
 }
-
-
-

@@ -7,10 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="A repository of ideas and opinions">
     <meta name="author" content="Jake Rego">
-    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
-	<link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Nixie+One|Philosopher|Quicksand|Josefin+Sans|Josefin+Slab|Slabo+27px|Maven+Pro|Exo+2|Varela+Round|Comfortaa|Old+Standard+TT' rel='stylesheet' type='text/css'>
-	<title>Five Capitalist</title>
+    <link rel="icon" href="images/f_black_favicon.ico">
+    <link href='http://fonts.googleapis.com/css?family=Lato|Nixie+One|Philosopher|Quicksand|Josefin+Sans|Josefin+Slab|Slabo+27px|Maven+Pro|Exo+2|Varela+Round|Comfortaa|Old+Standard+TT|Playfair+Display+SC|Open+Sans|Source+Sans+Pro|PT+Sans|Ubuntu:300,400' rel='stylesheet' type='text/css'>
+    <title>Five Capitalist</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -32,34 +31,41 @@
 <body>
 
 <div class="container">
-
-	<div class="blog-masthead">
-      <div class="container">
-        <ul class="nav nav-pills nav-justified">
-                <li role="presentation"><a href="index.html">Home</a></li>
-                <li role="presentation" class="active"><a href="aboutFive.html">About Five</a></li>
-                <li role="presentation"><a href="book-of-the-month.html">Book of the Month</a></li>
-                <li role="presentation"><a href="buckets/technology.html">Technology</a></li>
-                <li role="presentation"><a href="buckets/growth.html">Growth</a></li>
-                <li role="presentation"><a href="buckets/strategy.html">Strategy</a></li>
-                <li role="presentation"><a href="buckets/law.html">Law</a></li>
-                <li role="presentation"><a href="buckets/finance.html">Finance</a></li>
-            </ul>
-      </div>
-    </div> <!-- navbar -->
-
+    <div id="navigation-bar">      
+            <ul class="nav-items">
+              <a href="index.html">Home</a>
+              <a href="book-of-the-month.html">Book of the Month</a>
+              <a href="buckets/technology.html">Technology</a>
+              <a href="buckets/growth.html">Growth</a>
+              <a href="buckets/strategy.html">Strategy</a>
+              <a href="buckets/law.html">Law</a>
+              <a href="buckets/finance.html">Finance</a>
+              <a href="aboutFive.html">About Five</a>
+              <li class="items-right">
+                <ul class="soc">
+                    <li><a class="soc-twitter" href="http://www.twitter.com/drizzyjakerego"></a></li>
+                    <li><a class="soc-facebook" href="https://www.facebook.com"></a></li>
+                    <li><a class="soc-linkedin" href="https://www.linkedin.com"></a></li>
+                    <li><a class="soc-github" href="http://www.github.com/regojr"></a></li>
+                    <li><a class="soc-google" href="http://www.google.com"></a></li>
+                    <li><a class="soc-email1 soc-icon-last" href="#"></a></li>
+                </ul>
+              </li>
+          </ul>
+        </div>  <!-- end nav -->
 	<div class="blog-header">
-		<h1 class="blog-title">ABOUT FIVE</h1>
+		<h1 class="blog-title">About Five</h1>
         <p class="lead blog-description">Who are we?</p>
 	</div> <!-- header -->
-
-	
         
 	<div class="row">
 
 		<div class="col-sm-8 blog-main">
 		
                     <ul class="nav nav-tabs">
+                                
+                                <!-- Can't get this to work right so just having the About Us page reload
+                                
                                 <li role="presentation"><a href="javascript:ReplaceContentInContainer('head1','Mission Statement',
                                                                                                       'para1', 'FIVE (Five Innovators Valuing Excellence) is a collaboration between growing thought 
                                     leaders who	are becoming subject matter experts in each of the five critical pillars of 
@@ -94,14 +100,17 @@
                                             <li><b>Legal</b> - Intellectual Property, Corporate Structure</li>
                                             <li><b>Technology</b> - Development, Process Management and Analytics</li>
                                     ')">Home</a></li>
-                                                                                                      
+                                -->
+                                
+                                <li role="presentation"><a href="aboutFive.html">Home</a>
                                 <li role="presentation"><a href="javascript:ReplaceContentInContainer('head1', 'Education',
                                                                                                       'para1', 'Jake Education Content',
                                                                                                       'head2', 'Experience',
                                                                                                       'para2', 'Jake Experience Content',
                                                                                                       'head3', 'Background',
                                                                                                       'para3', 'Jake Background Content',
-                                                                                                      'ol', ' ')">Jake</a></li>
+                                                                                                      'ol', ' ',
+                                                                                                      'picture', 'images/jake.jpg')">Jake</a></li>
                                                                                                       
                                 <li role="presentation"><a href="javascript:ReplaceContentInContainer('head1', 'Education',
                                                                                                       'para1', 'Pat Education Content',
@@ -109,7 +118,8 @@
                                                                                                       'para2', 'Pat Experience Content',
                                                                                                       'head3', 'Background',
                                                                                                       'para3', 'Pat Background Content',
-                                                                                                      'ol', ' ')">Pat</a></li>
+                                                                                                      'ol', ' ',
+                                                                                                      'picture', 'images/pat.jpg')">Pat</a></li>
                                                                                                       
                                 <li role="presentation"><a href="javascript:ReplaceContentInContainer('head1', 'Education',
                                                                                                       'para1', 'Nick Education Content',
@@ -117,7 +127,8 @@
                                                                                                       'para2', 'Nick Experience Content',
                                                                                                       'head3', 'Background',
                                                                                                       'para3', 'Nick Background Content',
-                                                                                                      'ol', ' ')">Nick</a></li>
+                                                                                                      'ol', ' ',
+                                                                                                      'picture', 'images/nick.jpg')">Nick</a></li>
                                                                                                       
                                 <li role="presentation"><a href="javascript:ReplaceContentInContainer('head1', 'Education',
                                                                                                       'para1', 'Ryan Education Content',
@@ -125,7 +136,8 @@
                                                                                                       'para2', 'Ryan Experience Content',
                                                                                                       'head3', 'Background',
                                                                                                       'para3', 'Ryan Background Content',
-                                                                                                      'ol', ' ')">Ryan</a></li>
+                                                                                                      'ol', ' ',
+                                                                                                      'picture', 'images/ryan.jpg')">Ryan</a></li>
                                                                                                       
                                 <li role="presentation"><a href="javascript:ReplaceContentInContainer('head1', 'Education',
                                                                                                       'para1', 'Sean Education Content',
@@ -133,13 +145,17 @@
                                                                                                       'para2', 'Sean Experience Content',
                                                                                                       'head3', 'Background',
                                                                                                       'para3', 'Sean Background Content',
-                                                                                                      'ol', ' ')">Sean</a></li>
+                                                                                                      'ol', ' ',
+                                                                                                      'picture', 'images/sean.jpg')">Sean</a></li>
                                                                                                       
                             </ul>
                     
 			<div class="informational">                    
                             <br>
-                                                   
+                            
+                            <img id="picture" src="images/datass.jpg">
+                                                          
+                            <br><br>         
                                     <h2 id="head1" class="blog-post-title">Mission Statement</h2>
                                     <hr>
                                     <p id="para1"> FIVE (Five Innovators Valuing Excellence) is a collaboration between growing thought 
@@ -192,20 +208,7 @@
 	
 	         <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
           <div class="sidebar-module">
-            <h4>About</h4>
-			<hr>
-                        <p><i>Five Capitalists is a group of five professionals offering knowledge in their respective fields</i></p>
-          </div>
-
-            
-          <div class="sidebar-module">
-            <h4>Elsewhere</h4>
-            <hr>
-			<ol class="list-unstyled">
-              <li class="sidebar-module-item"><a href="http://getbootstrap.com/examples/blog/#">GitHub</a></li>
-              <li class="sidebar-module-item"><a href="http://getbootstrap.com/examples/blog/#">Twitter</a></li>
-              <li class="sidebar-module-item"><a href="http://getbootstrap.com/examples/blog/#">Facebook</a></li>
-            </ol>
+                        <p>Five Capitalists is a group of five professionals offering knowledge in their respective fields</p>
           </div>
         </div><!-- /.blog-sidebar -->
 	</div> <!-- row - main blog container -->
@@ -230,7 +233,7 @@
 
     <!-- JavaScript Dynamic Page content -->
     <script type="text/javascript">
-        function ReplaceContentInContainer(id1,content1,id2,content2,id3,content3,id4,content4,id5,content5,id6,content6,id7,content7) {
+        function ReplaceContentInContainer(id1,content1,id2,content2,id3,content3,id4,content4,id5,content5,id6,content6,id7,content7,pic,imgsrc) {
             var container1 = document.getElementById(id1);
             container1.innerHTML = content1;
             var container2 = document.getElementById(id2);
@@ -245,6 +248,9 @@
             container6.innerHTML = content6; 
             var container7 = document.getElementById(id7);
             container7.innerHTML = content7; 
+            
+            var container8 = document.getElementById(pic).src;
+            document.getElementById(pic).src=imgsrc;
         }      
     </script>
 
