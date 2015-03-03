@@ -265,8 +265,10 @@ background-color: #f5f5f5;
 }
 
 .informational img {
-    float: left;
-    border-radius: 50%;
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 150px;
 }
 
 .blog-post-title {
